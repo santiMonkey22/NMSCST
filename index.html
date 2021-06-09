@@ -1,0 +1,568 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NMSCST</title>
+    <link rel="stylesheet" href="css/foundation/foundation.css" />
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="theme.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  </head>
+  <body>
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="byHQ6aoz"></script>
+
+    <!-- <input id="tmp-link" type="hidden" data-link=""> -->
+
+    <div id="a11y-modal" class="large reveal" data-reveal title="Accessibility Statement" role="dialog">
+        <textarea class="statement-textarea" readonly rows="20">
+    The iGovPhil Project officially adopts the Web Content Accessibility Guidelines (WCAG 2.0) as the accessibility standard for all its related web development and services. WCAG 2.0 is also an international standard, ISO 40500. This certifies it as a stable and referenceable technical standard. 
+
+    WCAG 2.0 contains 12 guidelines organized under 4 principles: Perceivable, Operable, Understandable, and Robust (POUR for short). There are testable success criteria for each guideline. Compliance to these criteria is measured in three levels: A, AA, or AAA. A guide to understanding and implementing Web Content Accessibility Guidelines 2.0 is available at: https://www.w3.org/TR/UNDERSTANDING-WCAG20/
+
+    All iGovPhil Project services and content are currently moving towards WCAG Level A compliance. Work is being done to make the system fully compliant with this level. 
+     
+    Accessibility Features
+
+    Shortcut Keys Combination Activation Combination keys used for each browser. 
+      
+      Chrome for Linux press (Alt+Shift+shortcut_key) 
+      Chrome for Windows press (Alt+shortcut_key) 
+      For Firefox press (Alt+Shift+shortcut_key) 
+      For Internet Explorer press (Alt+Shift+shortcut_key) then press (enter) 
+      Accessibility Statement (Combination + 0): 
+      
+    Statement page that will show the available accessibility keys. 
+      
+        Home Page (Combination + 1): Accessibility key for redirecting to homepage. 
+        Main Content (Combination + R): Shortcut for viewing the content section of the current page. 
+        FAQ (Combination + 5): Shortcut for FAQ page. 
+        Contact (Combination + C): Shortcut for contact page or form inquiries. 
+        Feedback (Combination + K): Shortcut for feedback page. 
+        Site Map (Combination + M): Shortcut for site map (footer agency) section of the page. 
+        Search (Combination + S): Shortcut for search page. 
+      
+    Press esc, or click the close the button to close this dialog box.
+        </textarea>
+        <button class="close-button" data-close aria-label="Close modal" type="button">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+
+
+
+ 
+        
+           <!-- Sticky Top Bar navigation --> 
+      <nav> 
+        <div class="wrapper">
+          <div class="logo"><a href="http://www.gov.ph"><img src="img/govph-seal-navbar.png" alt="">GOVPH</a></div>
+          <input type="radio" name="slider" id="menu-btn">
+          <input type="radio" name="slider" id="close-btn">
+          <ul class="nav-links">
+            <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+            <li>
+              <a href="#" class="desktop-item">About Us</a>
+              <input type="checkbox" id="showMega">
+              <label for="showMega" class="mobile-item">About Us</label>
+              <div class="mega-box">
+                <div class="content">   
+                      <div class="row">
+
+                      </div>      
+                  <div class="row">
+                      <header>The School</header>
+                    <ul class="mega-links">
+                      <li><a href="#">History</a></li>
+                      <li><a href="#">Vision-Mission</a></li>
+                      <li><a href="#">School Seal</a></li>
+                      <li><a href="#">NMSCST Hymn</a></li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header>Administration</header>
+                    <ul class="mega-links">
+                      <li><a href="#">Board of Trustees</a></li>
+                      <li><a href="#">Organizational Structure</a></li>
+                      <li><a href="#">Key Officials and Staff</a></li>
+                      <li><a href="#">Transparency</a></li>
+                      <li><a href="#">Downloads</a></li>
+                    </ul>
+                  </div>
+                  
+                </div>
+              </div>
+            </li>
+            <li>
+              <li>
+                <a href="#" class="desktop-item">Academics</a>
+                <input type="checkbox" id="showMega">
+                <label for="showMega" class="mobile-item">Academics</label>
+                <div class="mega-box">
+                  <div class="content">
+                    <div class="row">
+                      <!-- <img src="img.jpg" alt=""> -->
+                    </div>
+                    <div class="row">
+                      <header>Schools</header>
+                      <ul class="mega-links">
+                        <li><a href="#">School of Agriculture and Environmental Science</a></li>
+                        <li><a href="#">School of Arts and Sciences</a></li>
+                        <li><a href="#">School of Business Administration and Management</a></li>
+                        <li><a href="#">School of Engineering and Technology</a></li>
+                        <li><a href="SICT.html">School of Information and Communication Technology</a></li>
+                        <li><a href="STE.html">School of Teacher Education</a></li>
+                      </ul>
+                      <header>Secondary Education</header>
+                      <ul class="mega-links">
+                        <li><a href="#">Junior High School</a></li>
+                        <li><a href="#">Senior High School</a></li>
+                      </ul>
+                    </div>
+                  
+                    <div class="row">
+                        <header>Registrar Services</header>
+                        <ul class="mega-links">
+                          <li><a href="#">Apply for Student Records</a></li>
+                          <li><a href="#">Office of the College Registar</a></li>
+                        </ul>
+                        <header>Student Portal</header>
+                        <ul class="mega-links">
+                          <li><a href="#">NMSCST Student Portal</a></li>
+                        </ul>
+                      </div>
+                 
+                  </div>
+                </div>
+              </li>
+              <li>
+              <a href="#" class="desktop-item">Admission</a>
+              <input type="checkbox" id="showMega">
+              <label for="showMega" class="mobile-item">Admission</label>
+              <div class="mega-box">
+                <div class="content">
+                  <div class="row">
+                    <!-- <img src="img.jpg" alt=""> -->
+                  </div>
+                  <div class="row">
+                    <header>Join our Ranks now!</header>
+                    <ul class="mega-links">
+                      <li><a href="#">Apply now</a></li>
+                      <li><a href="#">Degree Programs</a></li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header>Email Services</header>
+                    <ul class="mega-links">
+                      <li><a href="#">Personal Email</a></li>
+                      <li><a href="#">Business Email</a></li>
+                      <li><a href="#">Mobile Email</a></li>
+                      <li><a href="#">Web Marketing</a></li>
+                    </ul>
+                  </div>
+                
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href="#" class="desktop-item">Campus Life</a>
+              <input type="checkbox" id="showMega">
+              <label for="showMega" class="mobile-item">Campus Life</label>
+              <div class="mega-box">
+                <div class="content">
+                  <div class="row">
+                    <!-- <img src="img.jpg" alt=""> -->
+                  </div>
+                  <div class="row">
+                    <header>Offices</header>
+                    <ul class="mega-links">
+                      <li><a href="#">Student Affairs Office</a></li>
+                      <li><a href="#">Career and Guidance Counseling Office</a></li>
+                      <li><a href="#">Medical and Dental Services Office</a></li>
+                      <li><a href="#">Registrar's Office</a></li>
+                      <li><a href="#">Physical Education, Sports, Culture and Arts Office</a></li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header>Student Services</header>
+                    <ul class="mega-links">
+                      <li><a href="#">Admission</a></li>
+                      <li><a href="#">Scholarship</a></li>
+                      <li><a href="#">Guidance and Counseling</a></li>
+                      <li><a href="#">Supreme Student Council</a></li>
+                      <li><a href="#">Blue Generals Recognized Organization of Students</a></li> 
+                    </ul>
+                  </div>
+                 
+                </div>
+              </div>
+            </li>
+          </ul>
+          <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+        </div>
+      </nav>
+      
+  <!-- top bar navigation end -->
+         
+  <!-- masthead -->
+
+    <div id="masthead" style="padding-top: 45px; background-color: #f7cb2d;">
+      <div class="row">
+        <div id="logo">
+          <img class="mastheadimg" src="img/header1.png" alt="" >
+        </div>
+      </div>
+    </div>
+    <!--banner for mobile view-->
+<div class="mobilebanner" tyle=" background-color: #f7cb2d;">
+  <img src="img/banner for mobile.png" alt="">
+ 
+</div>
+
+<!--banner for mobile view end-->
+<!-- masthead end -->
+
+<!-- banner full width -->
+<div id="banner" style="background-color: #f7cb2d;padding-bottom: 46px;">
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+        <ul class="orbit-container" id="slider_full">
+
+            <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+            <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+
+          <li class="is-active orbit-slide">
+            <img src="img/img1.jpg">
+            
+          </li>
+          <li class="orbit-slide">
+            <img src="img/img2.jpg">
+           
+          </li>
+          
+        </ul>
+         
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- banner full width end -->   
+
+<!-- Auxillary Navbar-->  
+<div class="container1" style="background-color: #0b1f65;">
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="auxnavbar">
+        <div class="auxdropdown">
+          <button class="auxdropbtn">Research  
+          </button>
+          <div class="auxdropdown-content">
+            <p>RESEARCH</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+              <a href="#">Learn More</a>
+          </div>
+        </div> 
+        <div class="auxdropdown">
+          <button class="auxdropbtn">Instructions 
+          </button>
+          <div class="auxdropdown-content">
+            <p>INSTRUCTIONS</p>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+             <a href="#">Learn More</a>
+          </div>
+        </div> 
+        <div class="auxdropdown">
+          <button class="auxdropbtn">Production
+          </button>
+          <div class="auxdropdown-content">
+           <p>PRODUCTION</p>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+             <a href="#">Learn More</a>
+          </div>
+        </div> 
+        <div class="auxdropdown">
+          <button class="auxdropbtn">Extensions 
+          </button>
+          <div class="auxdropdown-content">
+            <p>EXTENSIONS</p>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+             <a href="#">Learn More</a>
+          </div>
+        </div> 
+      </div>  
+  </div>
+  </div>
+  </div>
+</div>
+<!-- Auxillary Navbar end-->  
+
+
+
+
+<!-- main -->               
+<div id="main-content">
+ 
+  <!-- Latest Updates-->  
+         <div id="update">
+              <div class="row">
+                <div class="latestupdates">
+                <div class="large-12 columns">
+                      <div class="grid_container" >
+                       <div class="grid_container1">
+                         <h2 style="color: #E2B327; padding: 20px;font-family: 'EB Garamond', serif;font-weight: bold;">NEWS AND UPDATES</h2>
+                         <p style="color: white; padding-left:20px;padding-right:20px;font-size: small;"> Latest events and updates for NMSCST. Be in the know on the latest happenings in and around the campus.</p>
+                         <div class="btn_container">
+                          <button class="update_btn">Read All</button>
+                         </div>
+                        </div>
+                       <div class="grid_container2">
+                        <div class="grid_image">
+                          <img class="grid_img__img" src="img/updates.jpg" >
+                            <div class="grid_img__overlay">
+                              <div class="grid_image__title">
+                                <h4>
+                                  Lorem ipsum dolor sit amet
+                                </h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+                               
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="grid_container3">
+                        <div class="grid_image">
+                          <img class="grid_img__img" src="img/updates.jpg" >
+                            <div class="grid_img__overlay">
+                              <div class="grid_image__title">
+                                <h4>
+                                  Lorem ipsum dolor sit amet
+                                </h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+                              
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="grid_container4">
+                        <div class="grid_image">
+                          <img class="grid_img__img" src="img/updates.jpg" >
+                            <div class="grid_img__overlay">
+                              <div class="grid_image__title">
+                                <h4>
+                                  Lorem ipsum dolor sit amet
+                                </h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+                               
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="grid_container5">
+                        <div class="grid_image">
+                          <img class="grid_img__img" src="img/updates.jpg" >
+                            <div class="grid_img__overlay">
+                              <div class="grid_image__title">
+                                <h4>
+                                  Lorem ipsum dolor sit amet
+                                </h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+                               
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="grid_container6">
+                        <div class="grid_image">
+                          <img class="grid_img__img" src="img/updates.jpg" >
+                            <div class="grid_img__overlay">
+                              <div class="grid_image__title">
+                                <h4>
+                                  Lorem ipsum dolor sit amet
+                                </h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+                             
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="grid_container7">
+                        <div class="grid_image">
+                          <img class="grid_img__img" src="img/updates.jpg" >
+                            <div class="grid_img__overlay">
+                              <div class="grid_image__title">
+                                <h4>
+                                  Lorem ipsum dolor sit amet
+                                </h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+                             
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="grid_container8">
+                        <div class="grid_image">
+                          <img class="grid_img__img" src="img/updates.jpg" >
+                            <div class="grid_img__overlay">
+                              <div class="grid_image__title">
+                                <h4>
+                                  Lorem ipsum dolor sit amet
+                                </h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+                               
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                      
+                    </div>
+                
+                  </div>
+                  </div>
+                </div>
+              </div> 
+ <!-- Latest Updates end-->
+
+<!-- Student Services Links-->
+<section id="studentlinks">
+  <div class="student_links">
+    <div class="row">
+      <div class="large-12 columns">
+        <div class="large-5 medium-5 columns" style="align-content: center">
+          <h3 style="font-family: 'EB Garamond', serif;">Become a BLUE GENERAL today!</h3>
+          <p>This is the Registration and Admission Examination Process for the Northwestern Mindanaoo State College of Science and Technology for incoming Freshmen, Transferees, and Returnees.</p>
+          <div class="btn_container">
+            <button class="update_btn">Pre-Enrollment Registration Portal</button>
+        
+           
+           </div> 
+        </div>
+       
+  </div>
+  </div>
+  </div>
+
+</section>
+
+<section id="bg-links">
+  <div class="bg-links">
+    <div class="row">
+      <div class="large-12 columns">
+    <h3 style="text-align: center;font-family: 'EB Garamond', serif;"> BLUE GENERALS STUDENT LINKS</h3>  
+          <div class="link1">
+           <a href="#"> <img src="img/studentportal.jpg" alt=""></a> 
+           <a href="#"><img src="img/insights.jpg" alt=""> </a>
+          </div>
+  
+   </div>
+  </div>
+  </div>
+      
+</section>
+
+            
+<!-- Student Services Links End-->
+
+
+<!-- Agency Footer-->
+
+<div id="agency-footer" style="background: linear-gradient(rgba(0, 0, 70, .9), rgba(0, 0, 10, .9))" >
+  <div class="row"> 
+    <div class="large-12 columns"> 
+      <div class="callout secondary" style="border:none;background:none;">
+        <div class="row">
+          <div class="large-8 medium-8 columns">
+            <div class="promotioncontainer">
+              <iframe src="https://www.youtube.com/embed/YnFjKKxmmUA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+           
+         </div>
+                         
+          <div class="large-4 medium-4 columns">
+            <div class="seals">
+              <img src="img/foi-logo.png" alt="">
+              <img src="img/transparency-seal (1).png" alt="">
+            </div>
+                <p style="color:yellow;font-weight: bold">Contact Us</p>
+                  <ul class="box"style="list-style: none">   
+                    <li style="color: White;"><img src="img/map.png" alt="" style="height: 20px;filter: opacity(0.5) drop-shadow(0 0 yellow);"> Brgy. Labuyo, Tangub City, Misamis Occidental</li>
+                    <li style="color: White;padding-top:2px"><img src="img/phone-call.png" alt="" style="height: 20px;filter: opacity(0.5) drop-shadow(0 0 yellow);"> (639) 000 0000</li>
+                    <li style="color: White;padding-top:2px"><img src="img/envelope.png" alt="" style="height: 20px;filter: opacity(0.5) drop-shadow(0 0 yellow);">  info@nmsc.edu.ph</li>                                  
+                 </ul>           
+           </div>
+              
+         
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+
+
+<!-- Agency Footer End-->
+
+
+
+ </div>
+  
+
+
+                  <script>
+                      $(".slider").owlCarousel({
+                        loop: true,
+                        autoplay: true,
+                        autoplayTimeout: 5000, //2000ms = 2s;
+                        autoplayHoverPause: true,
+                      });
+                    </script>   
+          
+        
+        
+
+
+
+<!-- main end -->
+
+<!--Standard Footer-->
+<div id="gwt-standard-footer"></div>
+
+<div><a href="#main-nav" id="back-to-top" title="Back to Top"><i class="fa fa-arrow-circle-up fa-3x" aria-hidden="true"></i></div>
+  
+  
+  <!-- off-canvas-content -->
+    </div><!-- off-canvas-wrapper-inner -->
+  </div><!-- off-canvas-wrapper -->
+</div>
+
+
+    <script type="text/javascript">
+      (function(d, s, id) {
+        var js, gjs = d.getElementById('gwt-standard-footer');
+
+        js = d.createElement(s); js.id = id;
+        js.src = "//cdn.i.gov.ph/gwt-footer/footer.js";
+        gjs.parentNode.insertBefore(js, gjs);
+      }(document, 'script', 'gwt-footer-jsdk'));
+    </script>
+<!--Standard Footer End-->
+
+    <script src="js/foundation/vendor/jquery.js"></script>
+    <script src="js/foundation/vendor/foundation.min.js"></script>
+    <script src="js/foundation/vendor/what-input.js"></script>
+    <script src="js/theme.js"></script>
+
+    <script>
+      $(document).foundation();
+    </script>
+
+	</body>
+</html>
